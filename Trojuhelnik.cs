@@ -32,7 +32,7 @@ namespace Cv6
 
         public Trojuhelnik(double a, double b, double c)
         {
-            if ((a < 0) || (b < 0) || (c < 0) || (a + b < c) || (a + c < b) || (b + b < a)) throw new Exception("Trojuhelnik nelze sestrojit.");
+            if ((a < 0) || (b < 0) || (c < 0) || (a + b < c) || (a + c < b) || (b + c < a)) throw new Exception("Trojuhelnik nelze sestrojit.");
             SideA = a;
             SideB = b;
             SideC = c;
